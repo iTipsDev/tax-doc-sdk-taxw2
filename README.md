@@ -1,5 +1,7 @@
 # tax-doc-sdk-taxw2
 
+![samples/TaxW2.sample.png](samples/TaxW2.sample.png)
+
 Software development kit to generate IRS Form W-2 as PDF file using Financial Data Exchange (FDX) standards.
 
 This GitHub project is public but the Maven repositories on which it relies are private.
