@@ -73,7 +73,7 @@ public class TaxW2DocumentGenerator {
 
         TaxDataList taxDataList = sampleData( );
 
-        String watermarkText = "Sample"; // Empty string for no watermark
+        String watermarkText = "QR Copy"; // Empty string for no watermark
 
         PdfOptions pdfOptions = getPdfOptions( );
 
