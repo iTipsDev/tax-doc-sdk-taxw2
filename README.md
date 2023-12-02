@@ -1,8 +1,8 @@
 # tax-doc-sdk-taxw2
 
-![samples/TaxW2.sample.png](samples/TaxW2.sample.png)
+Software development kit to generate IRS Form W-2 as PDF file using Financial Data Exchange (FDX) standards including QR codes and embedded JSON.
 
-Software development kit to generate IRS Form W-2 as PDF file using Financial Data Exchange (FDX) standards.
+<img alt="Sample Form" src="samples/TaxW2.sample.png" width="850"/>
 
 This GitHub project is public but the Maven repositories on which it relies are private.
 

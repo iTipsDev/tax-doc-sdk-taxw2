@@ -56,7 +56,7 @@ public class TaxW2DocumentGenerator {
         TaxW2PdfBuilder pdfBuilder = new TaxW2PdfBuilder( );
         byte[] bytes = pdfBuilder.buildQr( taxDataList );
 
-        String filePath = "samples/TaxW2.sample.png";
+        String filePath = "samples/TaxW2.qr.png";
         FileUtils.bytesToFile( bytes, filePath );
         System.out.println( filePath );
 
@@ -73,7 +73,7 @@ public class TaxW2DocumentGenerator {
 
         TaxDataList taxDataList = sampleData( );
 
-        String watermarkText = "QR Copy"; // Empty string for no watermark
+        String watermarkText = "Sample"; // Empty string for no watermark
 
         PdfOptions pdfOptions = getPdfOptions( );
 
@@ -84,6 +84,12 @@ public class TaxW2DocumentGenerator {
         String filePath = "samples/TaxW2.sample.pdf";
         FileUtils.bytesToFile( pdfBytes, filePath );
         System.out.println( filePath );
+
+        String filePathPng = "samples/TaxW2.sample.png";
+        byte[] pngBytes = Pdf2PngConverter.convertBytes( pdfBytes );
+        FileUtils.bytesToFile( pngBytes, filePathPng );
+        System.out.println( filePathPng );
+
 
     }
 
