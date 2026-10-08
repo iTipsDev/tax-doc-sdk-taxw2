@@ -1,0 +1,86 @@
+{
+  "taxYear" : 2026,
+  "accountId" : "67-597-1181",
+  "taxFormId" : "6223796",
+  "taxFormDate" : "2026-12-31",
+  "issuer" : {
+    "tin" : "00-0364531",
+    "partyType" : "BUSINESS",
+    "businessName" : {
+      "name1" : "Lowe-Emmerich"
+    },
+    "address" : {
+      "line1" : "035 Von Shoals",
+      "city" : "Mishaburgh",
+      "region" : "CA",
+      "postalCode" : "96984",
+      "unitType" : "Apt",
+      "unitNumber" : "678"
+    },
+    "phone" : {
+      "number" : "555-867-5309"
+    },
+    "email" : "graham.damore@gmail.com"
+  },
+  "recipient" : {
+    "tin" : "000-31-7264",
+    "partyType" : "INDIVIDUAL",
+    "individualName" : {
+      "first" : "Veronica",
+      "middle" : "Delbert",
+      "last" : "Bogan"
+    },
+    "businessName" : {
+      "name1" : "Nader Inc"
+    },
+    "address" : {
+      "line1" : "5392 Marks Plaza",
+      "city" : "Port Jasmine",
+      "region" : "MI",
+      "postalCode" : "39141",
+      "unitType" : "Apt",
+      "unitNumber" : "725"
+    },
+    "email" : "lauryn.rempel@yahoo.com"
+  },
+  "attributes" : [ ],
+  "links" : [ ],
+  "controlNumber" : "96438-21729-87150",
+  "wages" : 200,
+  "federalTaxWithheld" : 300,
+  "socialSecurityWages" : 400,
+  "socialSecurityTaxWithheld" : 500,
+  "medicareWages" : 600,
+  "medicareTaxWithheld" : 700,
+  "socialSecurityTips" : 800,
+  "allocatedTips" : 900,
+  "dependentCareBenefit" : 1000,
+  "nonQualifiedPlan" : 1100,
+  "codes" : [ {
+    "code" : "R",
+    "amount" : 1400
+  } ],
+  "statutory" : true,
+  "retirementPlan" : true,
+  "thirdPartySickPay" : true,
+  "esppQualified" : 1200,
+  "esppNonQualified" : 1300,
+  "other" : [ {
+    "description" : "CA SDI",
+    "amount" : 1500
+  } ],
+  "occupationCodes" : [ "201" ],
+  "stateAndLocal" : [ {
+    "stateCode" : "AA",
+    "state" : {
+      "taxWithheld" : 1600,
+      "taxId" : "57-372655",
+      "income" : 1700
+    },
+    "local" : {
+      "taxWithheld" : 1800,
+      "localityName" : "Jeraldinefort",
+      "income" : 1900
+    }
+  } ]
+}

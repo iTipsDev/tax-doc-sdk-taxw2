@@ -1,0 +1,86 @@
+{
+  "taxYear" : 2026,
+  "accountId" : "67-377-3031",
+  "taxFormId" : "7109954",
+  "taxFormDate" : "2026-12-31",
+  "issuer" : {
+    "tin" : "00-0364531",
+    "partyType" : "BUSINESS",
+    "businessName" : {
+      "name1" : "Lowe-Emmerich"
+    },
+    "address" : {
+      "line1" : "035 Von Shoals",
+      "city" : "Mishaburgh",
+      "region" : "CA",
+      "postalCode" : "96984",
+      "unitType" : "Apt",
+      "unitNumber" : "678"
+    },
+    "phone" : {
+      "number" : "555-867-5309"
+    },
+    "email" : "graham.damore@gmail.com"
+  },
+  "recipient" : {
+    "tin" : "000-94-4454",
+    "partyType" : "INDIVIDUAL",
+    "individualName" : {
+      "first" : "Bette",
+      "middle" : "Trang",
+      "last" : "Deckow"
+    },
+    "businessName" : {
+      "name1" : "Aufderhar, Green and Quigley"
+    },
+    "address" : {
+      "line1" : "629 Aaron Plaza",
+      "city" : "Rimahaven",
+      "region" : "WA",
+      "postalCode" : "06435",
+      "unitType" : "Apt",
+      "unitNumber" : "425"
+    },
+    "email" : "olivia.graham@hotmail.com"
+  },
+  "attributes" : [ ],
+  "links" : [ ],
+  "controlNumber" : "97740-13539-93216",
+  "wages" : 200,
+  "federalTaxWithheld" : 300,
+  "socialSecurityWages" : 400,
+  "socialSecurityTaxWithheld" : 500,
+  "medicareWages" : 600,
+  "medicareTaxWithheld" : 700,
+  "socialSecurityTips" : 800,
+  "allocatedTips" : 900,
+  "dependentCareBenefit" : 1000,
+  "nonQualifiedPlan" : 1100,
+  "codes" : [ {
+    "code" : "P",
+    "amount" : 1400
+  } ],
+  "statutory" : true,
+  "retirementPlan" : true,
+  "thirdPartySickPay" : true,
+  "esppQualified" : 1200,
+  "esppNonQualified" : 1300,
+  "other" : [ {
+    "description" : "CA SDI",
+    "amount" : 1500
+  } ],
+  "occupationCodes" : [ "201" ],
+  "stateAndLocal" : [ {
+    "stateCode" : "AA",
+    "state" : {
+      "taxWithheld" : 1600,
+      "taxId" : "73-309163",
+      "income" : 1700
+    },
+    "local" : {
+      "taxWithheld" : 1800,
+      "localityName" : "Lake Hortensiaville",
+      "income" : 1900
+    }
+  } ]
+}
